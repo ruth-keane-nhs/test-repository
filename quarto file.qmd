@@ -1,4 +1,9 @@
-library(tidyverse)
-print("hello!")
+---
+title: "other file"
+format: pdf
+---
 
+## Quarto
+```{r}
 iris %>% ggplot(aes(x=Sepal.Length, y=Sepal.Width)) + geom_point()
+```
